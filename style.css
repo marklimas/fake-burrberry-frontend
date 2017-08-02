@@ -117,7 +117,7 @@ body {
 }
 
 .button-product-size {
-  padding: 16px 0;
+  padding: 17px 0;
   background-color: #171717;
   border: none;
   border-radius: 2px;
@@ -159,13 +159,47 @@ body {
 
 .triangle {
   margin-right: 16px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+}
+
+.triangle-open {
+  margin-right: 16px;
   margin-top: 33px;
   margin-bottom: 33px;
+  transform: rotate(-180deg);
 }
 
 .description-menu {
   display: flex;
   justify-content: space-between;
+}
+
+.description-text {
+  font-weight: normal;
+  font-family: Lora;
+  font-size: 0.875rem;
+  line-height: 1.72;
+  font-weight: 300;
+  text-align: left;
+  color: #171717;
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.description-text-details {
+  font-weight: normal;
+  font-family: Lora;
+  font-size: 0.875rem;
+  line-height: 1.72;
+  font-weight: 300;
+  text-align: left;
+  color: #171717;
+  margin-top: 0rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 .menu-text {
@@ -178,7 +212,7 @@ body {
 }
 
 .recommendations {
-  padding-top: 0rem;
+  padding-top: 3rem;
   margin-left: 1rem;
 }
 
