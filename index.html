@@ -10,40 +10,91 @@
 </head>
 
 <body>
-  <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo">
-  <hr class="line-2"></hr>
-  <h1 class="item-name">Long Cotton Gabardine Car Coat</h1>
+  <header class="header">
+    <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x">
+  </header>
+  <h1 class="product-title">Long Cotton Gabardine Car Coat</h1>
 
-<div class=item-with-scrolling>
+<div class=product-preview>
   <img src="img/bitmap1.jpg" srcset="img/bitmap1@2x.jpg, img/bitmap1@3x.jpg" class="item-preview">
-  <img src="img/bitmap3.jpg" srcset="img/bitmap3@2x.jpg, img/bitmap3@3x.jpg" class="item-preview2">
+  <img src="img/bitmap5.jpg" srcset="img/bitmap5@2x.jpg, img/bitmap5@3x.jpg" class="item-preview">
+  <img src="img/bitmap2.jpg" srcset="img/bitmap2@2x.jpg, img/bitmap2@3x.jpg" class="item-preview">
+  <img src="img/bitmap4.jpg" srcset="img/bitmap4@2x.jpg, img/bitmap4@3x.jpg" class="item-preview">
 </div>
 
-<div class="container-with-item-price">
-   <h2 class="item-price">110 000 руб</h2>
-   <p class="item-number">Item 39428531</p>
- </div>
+<div class="product-description">
+  <div class="product-description-wrapper">
+    <h2 class="product-price">110 000 руб.</h2>
+    <p class="product-number">Item 39428531</p>
+  </div>
 
- <p class="item-colour">Colour: Honey</p>
+  <p class="product-colour">Colour: Honey</p>
+  <div class="button-wrapper">
+    <button class="button-colour button-black"></button>
+    <button class="button-colour button-colour-active button-brown"></button>
+  </div>
+  <div class="button-wrapper2">
+    <button class="button-product-size">SELECT A SIZE</button>
+    <button class="button-product-store">FIND IN STORE</button>
+  </div>
+    <button class="button-product-help">NEED SIZE HELP?</button>
+</div>
 
-<button class="colour"></button> <button class="colour2"></button>
 <div class="line"></div>
-
-<button class="button-size"><p class="size">SELECT A SIZE</p></button>
-<button class="button-find"><p class="find">FIND IN STORE</p></button>
-<button class="button-size-help">NEED SIZE HELP?</button>
-
-<div class="line3"></div>
  <div class="description-menu">
    <h2 class="menu-text">DESCRIPTION</h2>
    <img src="img/triangle.svg" class="triangle">
  </div>
-<div class="line3"></div>
+<div class="line"></div>
  <div class="description-menu">
    <h2 class="menu-text">SHIPPING & RETURNS</h2>
    <img src="img/triangle.svg" class="triangle">
  </div>
-<div class="line3"></div>
+<div class="line"></div>
+
+<div class="recommendations">
+  <h2 class="recommendation-title">WE RECOMMEND</h2>
+  <ul class="recommendations-list">
+    <li class="recommendations-card">
+    <img class="recommendation-card-preview" src="img/rec1.jpg"/>
+    <h3 class="recommendation-card-title">Emroided Hooded</h3>
+    <h5 class="recommendation-card-price">27 000 руб.</h5>
+    </li>
+
+    <li class="recommendations-card">
+    <img class="recommendation-card-preview" src="img/rec2.jpg">
+    <h3 class="recommendation-card-title">Relaxed Fit Stretch Jeans</h3>
+    <h5 class="recommendation-card-price">22 500 руб.</h5>
+    </li>
+
+    <li class="recommendations-card">
+    <img class="recommendation-card-preview" src="img/rec3.jpg">
+    <h3 class="recommendation-card-title">Leather and House Check</h3>
+    <h5 class="recommendation-card-price">120 000 руб.</h5>
+    </li>
+
+    <li class="recommendations-card">
+    <img class="recommendation-card-preview" src="img/rec4.jpg">
+    <h3 class="recommendation-card-title">Leather Wingtip Check</h3>
+    <h5 class="recommendation-card-price">46 000 руб.</h5>
+    </li>
+  </ul>
+</div>
+<div class="recommendations">
+<h2 class="recommendation-title">MORE FOR YOU</h2>
+</div>
+<div class="recommendations-links">
+<a href="#" class="recommendations-more">Men's Long Trench Coats</a>
+<a href="#" class="recommendations-more">Men's Short Trench Coats</a>
+<a href="#" class="recommendations-more">Men's Long Trench Coats</a>
+</div>
+
+<footer class="footer">
+      <button class="button-footer">Shipping country: Russian Federation</button>
+      <button class="button-footer">Language: English</button>
+      <h4 class="footer-title-help">Need help?</h4>
+      <a class="footer-link" href="#">Find out more and contact us</a>
+</footer>
 
   </body>
 </html>
